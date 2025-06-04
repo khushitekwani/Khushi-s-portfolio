@@ -1,6 +1,6 @@
 # Responsive Portfolio Website
 
-This project is a responsive portfolio website developed by Smit Sutariya. It is designed using HTML, CSS, and JavaScript, featuring:
+This project is a responsive portfolio website developed by Khushi Tekwani. It is designed using HTML, CSS, and JavaScript, featuring:
 
 - **Responsive Design:** Built to be responsive on all devices - mobile, tablet, and desktop.
 - **Scroll Animations:** Includes animations while scrolling to enhance user experience.
@@ -19,5 +19,5 @@ To use this project:
 
 ## Credits
 
-- **Smit Sutariya:** Lead Developer
+- **Khushi Tekwani:** Lead Developer
 

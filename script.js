@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
 // function sendEmail() {
 //     Email.send({
 //         Host : "smtp.gmail.com",
-//         Username : "smitkumar.sce21@sot.pdpu.ac.in",
+//         Username : "khushi.tce21@sot.pdpu.ac.in",
 //         Password : "**********",
-//         To : 'smitsutariya056@gmail.com',
+//         To : 'khushitekwani1@gmail.com',
 //         From : document.getElementById("email").value,
 //         Subject : document.getElementById("subject").value,
 //         Body : "Name: " + document.getElementById("yourname").value +
@@ -46,10 +46,12 @@ document.addEventListener('DOMContentLoaded', function() {
 /*=============== EMAIL JS ===============*/
 const contactForm = document.getElementById('contact-form'),
       contactMessage = document.getElementById('text')
+      emailjs.init("pKAu8neiJ9ydiT7TI"); // Your public key
+
 const sendEmail = (e) =>{
     e.preventDefault()
     //service id, template id, template params
-    emailjs.sendForm('service_rujmvlk','template_0v7dudm',"#contact-form",'qtRH3dBS67TzrxnS-')
+    emailjs.sendForm('service_b840wfn','template_mv9bfdy',"#contact-form",'pKAu8neiJ9ydiT7TI')
     .then(() => {
         contactMessage.textContent='✅ Message sent successfully'
         //remove the message after 5 seconds

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khushi' s Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- box icons link -->
+    <link
+      rel=" stylesheet"
+      href=" https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- remix icons link -->
+    <link
+      href=" https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+
+    <!-- Emailjs -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("qtRH3dBS67TzrxnS-");
+      })();
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo"> <span>Khushi </span>Tekwani </a>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <br />
+
+      <div class="right-nav">
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <!-- home section -->
+    <br /><br />
+    <section
+      class="home"
+      id="home"
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 650px;
+      "
+    >
+      <div class="home-text" data-aos="zoom-in-up">
+        <h3>🙋‍♀️Hello it's me</h3>
+        <h1>
+          <span id="name">Khushi Tekwani</span> <br />
+          <span class="multiple-text"></span>
+        </h1>
+        <p style="align-content: center">
+          I am a full-stack developer specializing in the MERN stack, with a
+          strong background in Java. I am passionate about building efficient,
+          scalable, and user-centric web applications from end to end. I
+          continuously strive to enhance my skill set and stay current with
+          emerging technologies to deliver innovative and high-quality
+          solutions.
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1L__7VewImZ5drRw8myd_8uBNAQAb_sr9/view?usp=sharing"
+          class="btn"
+        >
+          Download Resume
+          <i class="ri-arrow-right-up-line"></i>
+        </a>
+      </div>
+      <br />
+      <div class="image" data-aos="zoom-in-up">
+        <img
+          src="./Khushi_Tekwani_Profile_Photo-removebg-preview.png"
+          alt="Khushi Tekwani"
+          data-aos=""
+          style="width: 400px; height: 550px"
+        />
+      </div>
+    </section>
+
+    <!-- about section  -->
+
+    <section class="about" id="about">
+      <div class="about__image" data-aos="fade-right">
+        <svg
+          class="about__blob"
+          viewBox="0 0 550 591"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <mask id="maskBlob" mask-type="alpha">
+            <path
+              d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                        170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                        447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                        587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                        438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"
+            />
+          </mask>
+          <g mask="url(#maskBlob)">
+            <path
+              d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                        170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                        447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                        587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                        438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"
+            />
+
+            <rect x="37" width="476" height="630" fill="url(#pattern0)" />
+          </g>
+
+          <rect x="37" width="476" height="300" fill="url(#pattern1)" />
+
+          <defs>
+            <pattern
+              id="pattern0"
+              patternContentUnits="objectBoundingBox"
+              width="1"
+              height="1"
+            >
+              <use
+                href="#imageBlob"
+                transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"
+              />
+            </pattern>
+
+            <pattern
+              id="pattern1"
+              patternContentUnits="objectBoundingBox"
+              width="1"
+              height="1"
+            >
+              <use
+                href="#imageBlob"
+                transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"
+              />
+            </pattern>
+
+            <!-- Insert your profile (recommended size: 640 x 940) -->
+            <image
+              class="about__img"
+              id="imageBlob"
+              width="2000"
+              height="2500"
+              href="./Khushi_Tekwani_Profile_Photo 2.png"
+            />
+          </defs>
+        </svg>
+      </div>
+
+      <div class="about-text" data-aos="fade-left">
+        <h2>About Me</h2>
+        <h4>A Passionate <span> Web Developer!!</span></h4>
+        <p>
+          Hello! I’m Khushi Tekwani, a Computer Engineering student at Pandit
+          Deendayal Energy University with a CGPA of 9.56. I’m a full-stack web
+          developer skilled in Next.js, React, Node.js, Express, MongoDB, and
+          Java. I’ve worked on projects like Subscription Box System and CPU
+          Scheduling Algorithms, focusing on building efficient backends and
+          user-friendly frontends. During my internship at IIT Indore, I
+          developed reinforcement learning-based solutions for cloud resource
+          management and implemented anomaly detection models with up to 96%
+          accuracy. I am passionate about continuous learning and have a strong
+          interest in full-stack development.
+        </p>
+        <a
+          href="https://www.linkedin.com/in/khushi-tekwani-42a197264/"
+          class="btn"
+          >Read More
+          <i class="ri-arrow-right-up-line"></i>
+        </a>
+      </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills_section" id="skills">
+      <div class="skills_title" data-aos="fade-down">
+        <h3>My <span>Skills</span></h3>
+      </div>
+      <div class="skills_container">
+        <div class="skills_data" data-aos="fade-left">
+          <h2 class="skills_subtitle">What I am good at</h2>
+          <p class="skills_description">
+            Have a look at my tech stack and the tools I use.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1L__7VewImZ5drRw8myd_8uBNAQAb_sr9/view?usp=sharing"
+            target="_blank"
+            class="btn"
+            >My Resume</a
+          >
+        </div>
+        <div class="skills_content" data-aos="fade-right">
+          <ol class="skills_group" start="9">
+            <li class="skills_item"><span class="dot"></span>HTML</li>
+            <li class="skills_item"><span class="dot"></span>CSS</li>
+            <li class="skills_item"><span class="dot"></span>Tailwind CSS</li>
+            <li class="skills_item"><span class="dot"></span>JavaScript</li>
+            <li class="skills_item"><span class="dot"></span>React</li>
+            <li class="skills_item"><span class="dot"></span>NextJs</li>
+            <li class="skills_item"><span class="dot"></span>NodeJS</li>
+            <li class="skills_item"><span class="dot"></span>ExpressJS</li>
+          </ol>
+          <ol class="skills_group" start="5">
+            <li class="skills_item"><span class="dot"></span>MongoDB</li>
+            <li class="skills_item"><span class="dot"></span>MySQL</li>
+            <li class="skills_item"><span class="dot"></span>Git/GitHub</li>
+            <li class="skills_item"><span class="dot"></span>Postman</li>
+            <li class="skills_item"><span class="dot"></span>Redux</li>
+          </ol>
+          <ol class="skills_group">
+            <li class="skills_item">
+              <span class="dot"></span>Java Programming
+            </li>
+            <li class="skills_item">
+              <span class="dot"></span>Python Learning
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PROJECTS ====================-->
+
+<section class="projects_section" id="projects">
+  <h3 class="title" data-aos="zoom-in-down">
+    My <span>Projects</span>
+  </h3>
+
+  <div class="projects_container">
+    <article class="projects_card" data-aos="fade-right">
+      <h2 class="projects_title">Subscription Box System</h2><br><br>
+      <p class="projects_description">
+        Developed a full-stack subscription management system featuring user authentication, plan selection, order tracking,
+        and automated email notifications via Nodemailer. Integrated with secure Stripe payment processing.
+      </p>
+      <p class="projects_description">
+        Built with Next.js, Node.js/Express, and MySQL; deployed on Vercel, Render, and Aiven. Features include an admin panel
+        to manage subscriptions, plans, products, and analytics, with real-time payment status updates through Stripe webhooks.
+      </p>
+      <a href="https://subscription-management-q1kn.vercel.app/" target="_blank" class="projects_button">Try it <i class="ri-external-link-line"></i></a>
+    </article>
+
+    <article class="projects_card" data-aos="fade-down">
+  <h2 class="projects_title">CPU Scheduling Algorithms</h2>
+  <p class="projects_description">
+    Led a team of 5 to develop an interactive CPU Scheduling Simulator website, featuring real-time Gantt chart visualization, dynamic user input handling, and a responsive UI.
+  </p>
+  <p class="projects_description">
+    Implemented simulation logic for 4 key OS algorithms—SRTN, Producer-Consumer, SSTF, and LRU—enabling real-time execution with modular code architecture.
+  </p>
+  <a href="https://os-projectteam8.netlify.app/" target="_blank" class="projects_button">
+    Try it <i class="ri-external-link-line"></i>
+  </a>
+</article>
+
+    <article class="projects_card" data-aos="fade-left">
+      <h2 class="projects_title">Book-club Web Application</h2>
+      <p class="projects_description">
+        Engineered a feature-rich book club app with secure JWT-based authentication for users and admins. Features include reading progress tracking, interactive discussions, and member role management.
+      </p>
+      <p class="projects_description">
+        Deployed on Vercel and Render; includes admin capabilities for managing books, users, and activities. UI built with responsive Tailwind CSS, offering dynamic search and filtering.
+      </p>
+      <a href="https://fullstack-book-management.vercel.app/" target="_blank" class="projects_button">Try it <i class="ri-external-link-line"></i></a>
+    </article>
+  </div>
+</section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+      <div class="contact-text" data-aos="fade-down">
+        <h5>Contact Me</h5>
+        <h2>Let's Engage and Connect</h2>
+        <div class="contact-icons">
+          <a href="https://www.linkedin.com/in/khushi-tekwani-42a197264/"
+            ><i class="ri-linkedin-fill"></i
+          ></a>
+          <a href="https://github.com/khushitekwani"
+            ><i class="ri-github-fill"></i
+          ></a>
+          <a href="https://www.instagram.com/khushi_0806/"
+            ><i class="ri-instagram-fill"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="contact-form" data-aos="fade-up">
+        <form onsubmit="return validateForm()" id="contact-form">
+          <input
+            type="text"
+            id="yourname"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            required
+          />
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Write a Subject"
+            required
+          />
+          <textarea
+            name="message"
+            id="text"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="contact-btn">Send a message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer>
+      <p>
+        Created by <span>Khushi Tekwani 😄</span> | &copy; 2025 All Rights
+        Reserved. | Last Updated : June 04, 2025
+      </p>
+    </footer>
+
+    <script src="../script.js"></script>
+
+    <!-- AOS (Animate on Scroll) -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 1000,
+      });
+    </script>
+
+    <!-- imports the Typed.js library -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Emailjs -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  </body>
+</html>

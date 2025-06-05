@@ -1025,3 +1025,24 @@ footer {
         font-size: 15px,
     }
 }
+
+/* Responsive image styling */
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Optional: Stack home section vertically on small screens */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    height: auto !important;
+    padding: 20px 0;
+  }
+  .image {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

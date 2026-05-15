@@ -390,26 +390,23 @@ header.sticky {
     transform: scale(1.1) translateY(-10px) !important;
 }
 */
+
 .about__img {
-    position: relative;
-    width: 100%;
-    max-width: 350px;
+    position: absolute;
+    width: 420px;
     height: auto;
     margin: auto;
-    display: block;
+    border-radius: 12px;
     object-fit: cover;
-    transition: transform 0.4s ease;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.about__img:hover {
-    transform: scale(1.05) translateY(-10px);
+.about__image:hover .about__img {
+    transform: scale(1.08) translateY(-12px);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.65);
 }
-
-.about__container {
-    overflow: hidden;
-}
-
-
 
 
 

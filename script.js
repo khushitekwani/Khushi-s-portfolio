@@ -19,7 +19,7 @@ window.onscroll = () => {
 // Type JS
 document.addEventListener('DOMContentLoaded', function() {
     const typed = new Typed('.multiple-text', {
-        strings: ["Full-Stack Developer!"],
+        strings: ["Database Administrator!"],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,

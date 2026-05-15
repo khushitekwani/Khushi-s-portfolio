@@ -392,32 +392,27 @@ header.sticky {
 */
 /* Wrapper gets the hexagon shape */
 /* Outer wrapper for positioning in layout */
-.about__image {
-    position: relative;
-    width: 380px;
-    height: 420px;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    overflow: hidden;
-    transition: transform 0.4s ease, filter 0.4s ease;
-    margin: 0 auto;
-}
+/* Hexagon container */
 
-/* The actual image */
+
+/* Actual image */
 .about__img {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center;
     display: block;
+    transition: transform 0.4s ease;
 }
 
 /* Hover effect */
 .about__image:hover {
-    transform: scale(1.08) translateY(-12px);
-    filter: brightness(1.1);
+    transform: translateY(-10px) scale(1.03);
+    filter: brightness(1.08);
+}
+
+.about__image:hover .about__img {
+    transform: scale(1.05);
 }
 
 /* =============================SKILLS========================== */

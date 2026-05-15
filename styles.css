@@ -378,7 +378,7 @@ header.sticky {
     filter: drop-shadow(0 12px 12px hsla(var(--hue), 100%, 40%, .2));
     align-items: center;
 }
-
+/*
 .about__img {
     position: absolute;
     width: 900px;
@@ -389,7 +389,25 @@ header.sticky {
 .about__image:hover {
     transform: scale(1.1) translateY(-10px) !important;
 }
+*/
+.about__img {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
 
+.about__img:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.about__container {
+    overflow: hidden;
+}
 
 
 
